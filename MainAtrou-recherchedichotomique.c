@@ -28,7 +28,7 @@ int recherchedichotomiqueiterative(int value, int starting, int ending)
 
 int recherchedichotomiquerecursive(int value, int starting, int ending)
 {
-    if (ending < starting) return ;
+    if (ending < starting) return -1;
     int mid = (starting+ending)/2;
     if (mid == value)
     {
