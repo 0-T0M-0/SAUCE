@@ -8,14 +8,13 @@ int fibonacci(int n) {
 
     if (n==1 || n==2)
         return 1;
+    
     int fibA = 1 , fibB = 1 ;
-
-    int fib;
-    for (int i=2; i<n; i++) {
-        int temp = fib;
+    int fib=0;
+    for (int i=3; i<=n; i++) {
         fib = fibA+fibB;
         fibA = fibB;
-        fibB = temp;
+        fibB = fib;
     }
     return fib;
 }
