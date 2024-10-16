@@ -7,9 +7,41 @@
 #define MAX 100000
 #define SIZE 10000
 
-
-void tri_rapide(int *tab){
+int partition(int *tab, int premier, int dernier, int pivot_index) {
+    int pivot_value = tab[pivot_index];
+    int tmp = tab[pivot_index];
     
+    // Move pivot to the end
+    tab[pivot_index] = tab[dernier];
+    tab[dernier] = tmp;
+
+    int j = premier;
+    for (int i = premier; i < dernier; i++) {
+        if (tab[i] < pivot_value) {
+            // Swap tab[i] and tab[j]
+            tmp = tab[i];
+            tab[i] = tab[j];
+            tab[j] = tmp;
+            j++;
+        }
+    }
+
+    tmp = tab[j];
+    tab[j] = tab[dernier];
+    tab[dernier] = tmp;
+
+    return j; 
+}
+void tri_rapide(int *tab, int début, int fin){
+    int pivot_index;
+    if(début<fin){
+        pivot_index=(fin+début)/2;
+        pivot_index=partition(tab,début,fin,pivot_index);
+
+        tri_rapide(tab,début,pivot_index-1);
+        tri_rapide(tab,pivot_index+1,fin);
+
+    }
 
 }
 
@@ -143,7 +175,7 @@ int main(void)
     int tab[MAX];
     printf("Programme pour comparer les algorithmes de tri\n");
     generation_tab(tab);
-    tri_fusion(tab,0,SIZE);
+    tri_rapide(tab,0,SIZE);
     
     if (verif_tri(tab)==1) {
         printf("succès \n");
@@ -154,7 +186,7 @@ int main(void)
     //printf("Succ�s (1) ou �chec (-1) : %d\n",verif_tri(tab));
 
     debut = clock();
-    tri_fusion(tab,0,SIZE);
+    tri_rapide(tab,0,SIZE);
     // Mettez ici la fonction dont vous voulez mesurer le temps d'ex�cution
  
     fin = clock();
