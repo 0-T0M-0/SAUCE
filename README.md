@@ -9,10 +9,14 @@
     - quelques diagrammes des TDs du début
     
 - Algorithmie avancée
-    - D1 complet
+    - TD1 complet (juste les codes individuels)
+    - TD2 Preque complet (version Justin)
     
 - OS Linux
     - TD 3
     - TD 4
+      
+- Japonais
+    - Vocabulaire + quelques structures
 
 ***
