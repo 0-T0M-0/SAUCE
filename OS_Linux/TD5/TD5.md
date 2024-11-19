@@ -4,6 +4,9 @@ subtitle: OS Linux
 author: Tom MAFILLE
 geometry: margin=2cm
 lang: fr-FR
+header-includes:
+ - \usepackage{fvextra}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
 
 # Partie 1 - Tri de fichiers
