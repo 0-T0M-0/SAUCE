@@ -82,3 +82,97 @@ lang: fr-FR
     ```
 
 # Partie 3 - Pour aller plus loin
+
+1. Script qui compte le nombre de fichiers d'une extension donnée dans le répertoire courant :
+
+   ```bash
+    #!/bin/bash
+
+    if [ $# -ne 1 ]; then
+      echo "Usage: $0 <extension>"
+      exit 1
+    fi
+
+    extension=$1
+    count=$(find . -maxdepth 1 -type f -name "*.$extension" | wc -l)
+
+    echo "Nombre de fichiers avec l'extension .$extension dans le répertoire courant : $count"
+    ```
+   
+2. Script modifié pour parcourir récursivement les sous-dossiers :
+
+    ```bash
+    #!/bin/bash
+
+    if [ $# -ne 1 ]; then
+      echo "Usage: $0 <extension>"
+      exit 1
+    fi
+
+    extension=$1
+    count=$(find . -type f -name "*.$extension" | wc -l)
+
+    echo "Nombre de fichiers avec l'extension .$extension (dans tous les sous-dossiers) : $count"
+    ```
+
+3. Script extension qui ajoute une extension donnée à tous les fichiers passés en paramètres :
+
+    ```bash
+    #!/bin/bash
+
+    if [ $# -lt 2 ]; then
+      echo "Usage: $0 <extension> <file1> <file2> ..."
+      exit 1
+    fi
+
+    extension=$1
+    shift
+
+    for file in "$@"; do
+      if [ -f "$file" ]; then
+        new_file="${file}.$extension"
+        if [ -e "$new_file" ]; then
+          echo "Erreur : '$new_file' existe déjà, saut du fichier '$file'."
+        else
+          mv "$file" "$new_file"
+          echo "Renommé : '$file' -> '$new_file'"
+        fi
+      else
+        echo "Erreur : '$file' n'existe pas."
+      fi
+    done
+    ```
+
+4. Script regroupe qui regroupe les fichiers ayant la même extension dans un même répertoire :
+
+    ```bash
+    #!/bin/bash
+
+    if [ $# -eq 0 ]; then
+      echo "Usage: $0 <file1> <file2> ..."
+      exit 1
+    fi
+
+    for file in "$@"; do
+      if [ -f "$file" ]; then
+        extension="${file##*.}"
+        dir="./$extension"
+
+        if [ ! -d "$dir" ]; then
+          mkdir "$dir"
+          echo "Créé : dossier '$dir'"
+        fi
+    
+        mv "$file" "$dir/"
+        echo "Déplacé : '$file' -> '$dir/'"
+      else
+        echo "Erreur : '$file' n'existe pas."
+      fi
+    done
+    ```
+
+    
+
+    
+
+
