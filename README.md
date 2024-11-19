@@ -1,6 +1,6 @@
 # Github de tous les cours
-***
-Répertorie toute la sauce (les TD). Liste rapide de ce que ça contient :
+
+### Répertorie toute la sauce (les TD). Liste rapide de ce que ça contient :
 
 - Java
     - une partie de calculatrice
@@ -12,3 +12,4 @@ Répertorie toute la sauce (les TD). Liste rapide de ce que ça contient :
     - TD 3
     - TD 4
 
+***
