@@ -10,7 +10,7 @@
     
 - Algorithmie avancée
     - TD1 complet (juste les codes individuels)
-    - TD2 Preque complet (version Justin)
+    - TD2 Presque complet (version Justin)
     
 - OS Linux
     - TD 3
