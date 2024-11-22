@@ -39,3 +39,34 @@ public class Serveuse {
 	
 	
 }
+
+// version avec des listes : 
+//package version4;
+
+//import java.util.Iterator;
+//import java.util.List;
+
+//public class Serveuse {
+
+//    private List<Menu> menus;
+
+//    public Serveuse(List<Menu> menus) {
+//        this.menus = menus;
+//    }
+
+//    public void afficherMenu() {
+//        for (Menu menu : menus) {
+//            System.out.println("-- " + menu.getNom() + " --"); // Suppose que Menu a une méthode getNom().
+//            afficherMenu(menu.creerIterateur());
+//        }
+//    }
+
+//    private void afficherMenu(Iterator<Plat> iterator) {
+//        iterator.forEachRemaining((plat) -> {
+//            System.out.print(plat.getNom() + " -- ");
+//            System.out.print(plat.getPrix() + "€ -- ");
+//            System.out.println(plat.getDescription());
+//       });
+//    }
+//}
+
