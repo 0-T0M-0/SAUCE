@@ -2,6 +2,8 @@
 
 ### Répertorie toute la sauce (les TD). Liste rapide de ce que ça contient :
 
+#### S7
+
 - Java
     - une partie de calculatrice
 
@@ -20,3 +22,9 @@
     - Vocabulaire + quelques structures
 
 ***
+
+#### S8
+
+- Marketing
+    - CM 1
+    
