@@ -192,16 +192,84 @@ L'Oréal -> MENSONGE + RACISTE. LA PUB MANQUE DE PINGOUINS.
         - les PDM (part de marché) avec évolution
         - La concurrence directe et indirect (un produit ou un service différent, mais susceptible de répondre au même besoin)
     
+- Menaces et organisation :
+
+    - Réduire le nombre de variables
+        - Entrants potentiels
+        - Intensité de la concurrence
+        - Menace des produits de substitution
+        - Pouvoir de négociation des clients
+        - Pouvoir de négociation des fournisseurs
+    - Quantifier le risque et hiérarchiser les actions à mettre en place
+        - Note de 1 à 4 
+        - Note globale / 20
+        - Schéma de surveillance (en araignée)
+
+2. Analyser le macro-environnement de l'entreprise
+
+    - Modèle Pestel : pousse le diagnostique d'un secteur sur 6 critères : Politique Economique Social Technologique Environnemental Legislatif
     
+\vspace{10px}
+
+-> **Important de valider les données marchés et de varier les sources d'information**. Salons, articles, presse, [...]
     
+\vspace{10px}
     
-    
-    
-    
-    
-    
-    
-    
+### EXO : cas DANIO
+
+1. Etude de cas
+
+- Forces :
+
+    - Innovation de rupture : Positionnement inédit sur le marché du snacking sain.Résistance
+    - Produits à forte teneur en protéines et faible en matières grasses, répondant aux nouvelles attentes des consommateurs.
+    - Expertise et leadership de Danone sur le marché des produits laitiers.
+    - Investissement dans une ligne de production dédiée.
+    - Communication massive et innovante (campagnes publicitaires, échantillonnages dans des lieux stratégiques comme les salles de sport).V
+
+- Faiblesses :
+
+    - Prix élevé par rapport aux yaourts classiques, pouvant limiter l'accessibilité.
+    - Risque de confusion avec les yaourts grecs américains (perte de la dénomination).
+    - Tension avec les producteurs de lait (mauvaise relation sur la fixation des prix).
+    - Vulnérabilité à l’échec d’innovations : deux innovations alimentaires sur trois échouent.
+
+- Opportunités :
+
+    - Croissance du marché du snacking sain et évolution des habitudes alimentaires (consommation entre les repas, rejet de la malbouffe).
+    - Expansion potentielle vers des segments ou marchés internationaux en demandeurs (ex : Europe).
+
+- Menaces :
+
+    - Concurrence accrue avec des produits similaires (ex. Yopa ! de Yoplait).
+    - Déclin général du marché des produits laitiers frais.
+    - Réticence des consommateurs face aux prix élevés.
+    - Risques liés aux scandales ou controverses dans la filière laitière (ex. affaire Fonterra).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
