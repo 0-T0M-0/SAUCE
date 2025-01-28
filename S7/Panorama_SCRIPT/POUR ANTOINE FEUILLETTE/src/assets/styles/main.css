@@ -1,0 +1,359 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif; /* Police moderne */
+    height: 100%;
+    background-color: #f4f4f9; /* Fond léger et neutre */
+    color: #333; /* Texte principal */
+}
+
+/* App Layout */
+#app {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.main-content {
+    flex: 1; /* Permet à la section principale de s'étendre */
+    padding: 2rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Formulaire de Contact */
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(45deg, #0056b3, #003c8f);
+    transform: translateY(-2px);
+}
+
+/* Catalogue */
+.catalog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.catalog-container h1,
+.catalog-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.catalog-container h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+}
+
+.product-card p {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.product-card p:last-child {
+    font-size: 1.3rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Accueil */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.catalog-section {
+    margin-top: 2rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .home-container,
+    .catalog-container {
+        padding: 1rem;
+    }
+
+    .catalog-container h1 {
+        font-size: 2rem;
+    }
+
+    .product-card {
+        padding: 1rem;
+    }
+}
+
+.catalog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.catalog-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.catalog-container h2 {
+    font-size: 2rem;
+    color: #555;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.swiper {
+    padding: 1rem 0;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.product-card p:last-child {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Header styles */
+.header {
+    background-color: #333; /* Fond sombre pour le header */
+    color: white;
+    padding: 1rem 0;
+    border-bottom: 4px solid #007bff; /* Accent color pour délimiter le header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour effet de profondeur */
+}
+
+.shop-name {
+    font-size: 2rem; /* Taille du titre principale */
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #007bff; /* Couleur accentuée pour le nom du magasin */
+}
+
+.header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between; /* Équilibre entre le nom et la navigation */
+    align-items: center;
+}
+
+.nav-bar {
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem; /* Espacement uniforme entre les éléments */
+}
+
+.nav-item {
+    font-size: 1rem;
+    font-weight: 500; /* Semi-gras pour un style élégant */
+}
+
+.nav-item a {
+    color: white; /* Texte blanc pour contraster avec le fond */
+    text-decoration: none; /* Supprime le soulignement */
+    padding: 0.5rem 1rem;
+    border-radius: 4px; /* Coins arrondis pour les liens */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce pour les interactions */
+}
+
+.nav-item a:hover {
+    background-color: #007bff; /* Fond orange au survol */
+    color: #333; /* Texte sombre pour contraster avec le fond orange */
+}
+
+.nav-item a.active {
+    background-color: #007bff; /* Indique le lien actif */
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Filtres */
+.filters {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filters label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.filters select,
+.filters input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
