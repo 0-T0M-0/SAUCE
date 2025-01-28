@@ -247,30 +247,147 @@ L'Oréal -> MENSONGE + RACISTE. LA PUB MANQUE DE PINGOUINS.
     - Risques liés aux scandales ou controverses dans la filière laitière (ex. affaire Fonterra).
 
 
+\vspace{10px}
+
+# 2] Du marketing stratégique au marketing opérationnel
+
+\vspace{10px}
+
+## 1) Rappels sur la démarche marketing
+
+\vspace{10px}
+
+Ce que l'on peut faire (Analyse interne) + ce qu'il faut faire (Analyse externe) = Actions à mener : **F**acteurs **C**lés de **S**uccès (**FCS**).
+
+-> Reste à définir pour qui s'adresser. Pour cela :
+
+\vspace{10px}
+
+### Segmenter son marché
+
+Découper le marché en sous-ensembles de clients qui sont homogènes en attentes, selon des critères pertinents.
 
 
+But de la segmentation : identifier des groupes distincts de clients qui réagiront de la même façon à l'offre proposée à l'entreprise selon leurs besoins.
 
 
+**/!\\ Ne pas confondre segmentation marché et segmentation produits**
+
+- **segmentation produits** : segmenter l'offre.
+
+- **segmentation marché** : segmente la demande et les clients.
+   
+   
+   
+-> Cibler, positionner. **Quel est le client potentiel ?**
+
+\vspace{10px}
+
+### En B To C :
+
+\vspace{10px}
+
+1. Les critères de nature socio-démographique : OBJECTIFS
+
+\vspace{10px}
+
+- **Critères socio-économiques** : la professoin, la catégorie socio-professionelle (CSP), le niveau de revenus.
+
+- **Critères démographiques** : l'âge, le sexe, la situation familiale, la situation conjugale, le niveau d'études, etc.
+
+- **Critères géographiques** : banlieueee, ville, campagne, etc.
+
+\vspace{10px}
+
+2. Les critères de nature psychologique : SUBJECTIFS
+
+\vspace{10px}
+
+- **Critères liés au style de vie** : Sportifs, écolos, etc.
+
+- **Personalité** : l'autoritaire, l'introverti, le maniaque, le feuillette, le Arnold sans manteau...
+
+- **Comportements d'achats** : fréquence, usage, ...... (jaj)..... 
+
+\vspace{10px}
+
+### En B To B :
+
+\vspace{10px}
+
+- **Segmentation sectorielle** : selon le type de secteur
+
+- **Segmentation géographiques** : Marchés nationaux, internationaux, avec des spécificités régionales
+
+- **Segmentation selon la taille** : TPE, PME, etc.
 
 
+### Cibler un ou plusieurs marchés
 
+Comment choisir ?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. Estimer l'intérêt des segments.
+    - Le marché est-il important ?
+    - Son évolution est-elle positive ?
+    - Quel est l'environnement concurrentiel ?
     
+2. Evaluer notre avantage sur ces segments
+    - Avons-nous des produits vraiment différenciants ?
+    - Sommes-nous compétents techniquement pour le prendre ?
+    - Sommes-nous compétents commercialement pour le prendre ?
     
+\vspace{10px}
+
+**On peut choisir une stratégie sur une ou plusieurs cibles**.
+
+    - marketing ciblé : proposé à un seul segment
+    - marketing différencié : multi-segments
+    - marketing indifférencié : marketing de masse
     
+-> Choisir un ou des segments auxquels notre offre va s'adresser
+
+- Positionner mon offre pour chaque cible
+    - Développer une *proposition de valeur* pour le(s) segment(s) : cad répondre à la question "Quelle solution apporte votre produit/service au besoin du client, et **comment elle se démarque des autres produits du marché ?**"
+
+- Le triangle d'or du positionnement :
+
+![Triangle d'or du positionnement](/home/t-0/Images/Copies d'écran/t.png){width=200px}
+
+- Alternative plus précise :
+
+    Positionnement :
+
+    - Quoi ? offre adaptée
+    - Qui ? cible spécifique
+    - Contre qui ? Analyse récente du marché concurrent
+    - Quand ? Contexte, besoin client
+    - Pourquoi ? On construit sa proposition de valeur
+    
+\vspace{10px}
+
+
+Différences besoin client / attentes clients : besoin = nécessité, attente = souhait.
+
+### Connaître ses clients
+
+2. Definir sa cible principale client/usagers
+
+\vspace{10px}
+
+Quel client/usager serait interessé par votre offre ?
+- Coeur de cible : public à atteindre en priorité
+- Cible primaire : clients potentiels, interessés
+- Cible secondaire : Acheteurs non consommateurs
+- Cible communication : Prescripteurs, influenceurs..
+
+-> Choisir son coeur de cible est très important mais pas si facile. Grand public ? Seniors ? ... Définir le profil type de votre client/usager prioritaire
+
+Ex. Le slip français ! (Clément a un slip)
+
+
+### Exemple : SALOMON
+
+
+
+
     
