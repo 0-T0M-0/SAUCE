@@ -1,9 +1,16 @@
 #ifndef ALARMEWIDGET_H
 #define ALARMEWIDGET_H
 
-#include <QMainWindow>
+#include <QWidget>
+#include <QTimer>
 
-class AlarmeWidget : public QMainWindow
+QT_BEGIN_NAMESPACE
+namespace Ui {
+class AlarmeWidget;
+}
+QT_END_NAMESPACE
+
+class AlarmeWidget : public QWidget
 {
     Q_OBJECT
 
@@ -11,6 +18,13 @@ public:
     AlarmeWidget(QWidget *parent = nullptr);
     ~AlarmeWidget();
 
-    void changerTexte(void);
+private slots:
+    void on_pushButton_clicked();
+    void updateTime();
+
+private:
+    Ui::AlarmeWidget *ui;
+    QTimer *timer;
 };
+
 #endif // ALARMEWIDGET_H
