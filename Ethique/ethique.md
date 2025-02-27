@@ -7,4 +7,51 @@ Dans ce cadre, la responsabilité d’un manager comme pourrait être celle d’
 
 # Étude de cas
 
-Nous considérerons une situation concrète, dans laquelle un ingénieur manager est confronté avec son équipe à un dilemme éthique. Dans ce cadre, des 
+Nous considérerons une situation concrète, dans laquelle un ingénieur manager est confronté avec son équipe à un dilemme éthique. Dans ce cadre, il est possible que des avis soient divergents concernant la situation et les évaluations morales individuelles. La question se pose alors de quelle est la manière la plus juste de réagir à cette situation, et suivant quels critères. 
+
+
+Developper les axiomes :
+
+1) Cadre 1
+- Il existe un bien de manière absolue
+- Toutes les morales sont basées sur ce bien dans une certaine mesure
+- Morale = subjectivité du bien
+
+OU 
+
+2) Cadre 2
+- Le bien est subjectif par nature
+- Morale = tendance sur le bien de manière globale
+
+-> Suivre son bien est la meilleure chose, que ça implique de prendre en compte ceux des autres ou non, suivant si je prend le bien comme critère
+Sinon, suivre son critère et faire en fonction
+
+-> On exclut cette hypothèse
+
+Si on se base sur un cadre philosophique solide, il est préférable d'aborder la question sous le prisme de ce second cadre. Néanmoins, dans la réalité de ce qui est, il n'est pas applicable aux gens de manière générale car se détache de la conscience et de ce qu'on estime comme bien. Les deux cadres sont valides, mais le premier est plus proche d'une réalité humaine, bien qu'il soit un parti pris conséquent d'un point de vue philosophique et qu'il soit un chemin qui s'écarte des réflexions philosophiques non religieuses communes. On considère donc ce premier cadre pour l'intêret qu'il propose.
+
+
+
+Critères possibles : 
+- Bien
+    - Absolu
+    - Morale
+        - Bien proche
+        - Bien lointain
+    - Bien social / compromis social
+- Non basés sur le bien
+    (dépend du cadre philosophique choisi, ex. basé sur les plaisirs)
+    
+
+Issues possibles en fonction des critères choisis : 
+- Bien absolu :
+    - Essayer de se détacher de sa morale
+    - Prendre en compte tous les avis (faire un sondage)
+    - Trouver un compromis selon toutes les morales individuelles
+    -> Basé sur les morales des autres + la sienne
+
+
+S'en foutre des morales des autres et suivre la sienne
+
+
+
